@@ -1,0 +1,4 @@
+Gap ID,Requirement ID,Department,Requirement,Odoo Standard Coverage,Gap,Resolution Type,Proposed Solution,Business Impact,Complexity,Priority,Owner,Approval
+GAP-001,BR-001,Sales,Prevent overlapping active unit reservations,Partial,Yes,Custom Development,Add validation on active reservation lifecycle,High,Medium,Must,Sales Process Owner,Pending
+GAP-002,FR-001,Finance,Register customer payments against invoices,Full,No,Standard Odoo,Use standard payment and reconciliation flow,High,Low,Must,Finance Process Owner,Approved
+GAP-003,REP-001,Management,Monthly sales and collection dashboard,Partial,Yes,Reporting / BI,Create approved management dashboard using validated source fields,Medium,Medium,Should,Project Sponsor,Pending
