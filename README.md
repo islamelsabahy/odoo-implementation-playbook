@@ -4,11 +4,14 @@ A practical, business-first implementation framework for delivering Odoo ERP pro
 
 Built for ERP project managers, IT managers, business analysts, process owners, finance teams, and Odoo implementation partners who need a repeatable project-governance toolkit.
 
-## v1.1 Highlights
+## v1.2 Highlights
 
 - 24 Odoo Finance UAT scenarios
 - 24 Odoo CRM & Sales UAT scenarios
+- 24 Odoo HR & Payroll UAT scenarios
+- 24 Odoo Purchase & Inventory UAT scenarios
 - 8 real-estate extension scenarios
+- Finance Month-End Close control checklist
 - Excel-ready CSV registers for Requirements, UAT, Gap Analysis, Defects, and RAID
 - End-to-end implementation governance from Discovery to Hypercare
 
@@ -24,11 +27,14 @@ Built for ERP project managers, IT managers, business analysts, process owners, 
 - UAT planning and execution
 - Finance UAT
 - CRM & Sales UAT
+- HR & Payroll UAT
+- Purchase & Inventory UAT
 - Real-estate ERP scenarios
 - Change-request control
 - Security and access review
 - Go-live readiness
 - Cutover planning
+- Finance month-end close readiness
 - Hypercare and stabilization
 
 ## Implementation Lifecycle
@@ -72,9 +78,14 @@ Continuous Improvement
 ├── 07-uat/
 │   ├── finance-uat-library.md
 │   ├── crm-sales-uat-library.md
+│   ├── hr-payroll-uat-library.md
+│   ├── purchase-inventory-uat-library.md
 │   ├── uat-test-case-template.md
 │   └── defect-log.md
 ├── 08-go-live/
+│   ├── go-live-readiness-checklist.md
+│   ├── cutover-plan.md
+│   └── finance-month-end-close-checklist.md
 ├── 09-hypercare/
 ├── 10-governance/
 ├── templates/
@@ -90,9 +101,9 @@ Continuous Improvement
 └── README.md
 ```
 
-## Key Templates
+## Key Templates & Libraries
 
-| Template | Purpose |
+| Template / Library | Purpose |
 |---|---|
 | Discovery Checklist | Capture business, users, processes, systems, integrations, and pain points |
 | Stakeholder Register | Identify decision makers, process owners, SMEs, and approvers |
@@ -102,6 +113,9 @@ Continuous Improvement
 | Migration Tracker | Control source data, cleansing, mapping, ownership, and validation |
 | Finance UAT Library | Validate invoicing, payments, reconciliation, reporting, controls, and closing readiness |
 | CRM & Sales UAT Library | Validate lead, opportunity, quotation, approval, order, and reporting flows |
+| HR & Payroll UAT Library | Validate employee master, attendance, leave, payroll, access, and payroll accounting |
+| Purchase & Inventory UAT Library | Validate RFQ/PO, approvals, receipts, bills, warehouse controls, stock, and valuation |
+| Finance Month-End Close | Validate repeatable month-end controls and reconciliations |
 | UAT Test Case | Standard format for end-to-end acceptance testing |
 | Defect Log | Track UAT issues by severity and owner |
 | Go-Live Checklist | Readiness gate before production launch |
@@ -111,51 +125,21 @@ Continuous Improvement
 | RACI Matrix | Clarify accountability and decision ownership |
 | Change Request | Govern scope changes and commercial/technical impact |
 
-## Odoo Finance UAT Coverage
+## Current UAT Coverage
 
-Includes scenarios for:
+The playbook now contains **104 practical acceptance-test scenarios** across the main business domains:
 
-- Customer invoices and collections
-- Vendor bills and payments
-- Partial payments
-- Credit notes
-- Bank reconciliation
-- Cash receipts
-- Manual journal entries
-- Taxes and withholding patterns
-- Multi-currency
-- Receivable/payable aging
-- Trial balance
-- Profit & Loss
-- Balance Sheet
-- Lock dates
-- Access controls
-- Opening balances
-- Payment terms
-- Analytic dimensions
+```text
+Finance               24
+CRM & Sales            24
+HR & Payroll           24
+Purchase & Inventory   24
+Real Estate Extension   8
+-------------------------
+Total                 104
+```
 
-## CRM & Sales UAT Coverage
-
-Includes scenarios for:
-
-- Lead creation and assignment
-- Qualification
-- Pipeline stages
-- Lost reasons
-- Activities and follow-ups
-- Opportunity conversion
-- Quotations
-- Pricelists and discounts
-- Approval controls
-- Sales orders
-- Invoice triggers
-- Cancellation
-- Team access
-- Forecasting
-- Reporting
-- Customer history
-
-### Real-Estate Extension
+## Real-Estate Extension
 
 Additional scenarios cover:
 
@@ -227,19 +211,21 @@ Recommended live-project workbook:
 - [x] Core UAT toolkit
 - [x] Odoo Finance UAT library
 - [x] Odoo CRM & Sales UAT library
+- [x] Odoo HR & Payroll UAT library
+- [x] Odoo Purchase & Inventory UAT library
 - [x] Real-estate UAT extension
 - [x] Excel-ready CSV register pack
+- [x] Finance month-end close checklist
 - [x] Go-live and hypercare toolkit
 - [x] Governance templates
-- [ ] Finance month-end close checklist
-- [ ] Odoo HR & Payroll UAT library
-- [ ] Purchase & Inventory UAT library
 - [ ] Full real-estate implementation pack
+- [ ] Training and change-management pack
+- [ ] Odoo security and access review pack
 - [ ] Automated project readiness dashboard
 
 ## Disclaimer
 
-This repository is a project-management and implementation framework. It should be adapted to the organization, Odoo version, deployment model, implementation partner, local regulations, accounting requirements, and approved business processes. Example data is illustrative and must not be treated as legal, tax, accounting, or regulatory advice.
+This repository is a project-management and implementation framework. It should be adapted to the organization, Odoo version, deployment model, implementation partner, local regulations, accounting requirements, and approved business processes. Example data is illustrative and must not be treated as legal, tax, accounting, payroll, or regulatory advice.
 
 ## Author
 
