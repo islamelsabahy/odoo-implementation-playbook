@@ -1,0 +1,5 @@
+ID,Type,Description,Impact,Probability,Owner,Mitigation or Action,Due Date,Status
+R-001,Risk,Key users are not available during UAT,High,Medium,Project Manager,Secure named backup SMEs and protected UAT calendar,,Open
+A-001,Assumption,Legacy customer master can be extracted in agreed format,Medium,Medium,Data Owner,Validate extraction during migration rehearsal,,Open
+I-001,Issue,Finance opening balance mapping not approved,High,,Finance Process Owner,Complete mapping review and sign-off before final migration,,Open
+D-001,Dependency,Production domain and email configuration,Medium,,IT Manager,Complete DNS and mail readiness before cutover,,Open
