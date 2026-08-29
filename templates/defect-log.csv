@@ -1,0 +1,3 @@
+Defect ID,Test Case,Module,Description,Severity,Priority,Owner,Status,Target Date,Retest Result,Root Cause,Notes
+DEF-001,UAT-003,Accounting,Example posting issue,Critical,High,Implementation Partner,Open,,Not Retested,,
+DEF-002,UAT-002,Sales,Quotation field mapping mismatch,Major,High,Functional Consultant,Open,,Not Retested,,
