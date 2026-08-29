@@ -1,0 +1,6 @@
+Test Case ID,Module,Process,Scenario,Preconditions,Test Steps,Expected Result,Priority,Tester,Result,Defect ID,Sign-off
+UAT-001,CRM,Lead Management,Create and assign a new lead,Sales user exists,Create lead then assign salesperson,Lead is created with correct owner and visibility,High,,Not Run,,
+UAT-002,Sales,Quotation,Create quotation from qualified opportunity,Qualified opportunity exists,Create quotation and confirm mandatory fields,Quotation contains correct customer products prices taxes and terms,High,,Not Run,,
+UAT-003,Accounting,Customer Invoice,Post standard customer invoice,Customer and accounts exist,Create and post invoice,Correct receivable revenue tax and journal entries are posted,Critical,,Not Run,,
+UAT-004,Accounting,Collection,Register full payment against invoice,Posted invoice exists,Register payment and reconcile,Invoice status becomes paid and journal balance updates,Critical,,Not Run,,
+UAT-005,Real Estate,Reservation,Prevent overlapping active reservation,Unit has active reservation,Attempt second active reservation for same unit,System blocks conflicting reservation,Critical,,Not Run,,
