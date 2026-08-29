@@ -1,0 +1,5 @@
+Req ID,Department,Process,Requirement,Type,Priority,Source,Acceptance Criteria,Owner,Status
+BR-001,Sales,Reservation,Prevent overlapping active unit reservations,Business,Must,Sales Process Owner,The same unit cannot have two active reservations for overlapping validity,Sales Process Owner,Draft
+FR-001,Finance,Collections,Register customer payment against invoice,Functional,Must,Finance Process Owner,Payment posts to approved journal and reconciles against the selected invoice,Finance Process Owner,Draft
+REP-001,Management,Reporting,Provide monthly sales and collection dashboard,Reporting,Should,Management,Dashboard totals reconcile to source sales and accounting records,Project Sponsor,Draft
+SEC-001,IT,Access Control,Restrict finance posting to authorized roles,Security,Must,IT and Finance,Unauthorized users cannot post journal entries,IT Manager,Draft
