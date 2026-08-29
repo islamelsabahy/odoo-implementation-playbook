@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0 — 2026-08-29
+
+### Added
+- Odoo HR & Payroll UAT Library with 24 practical acceptance scenarios
+- Odoo Purchase & Inventory UAT Library with 24 practical acceptance scenarios
+- Finance Month-End Close Checklist covering AR, AP, banks, GL, assets, inventory, payroll, tax, and financial statements
+- Expanded multi-department ERP test coverage across Finance, CRM/Sales, HR/Payroll, Purchase/Inventory, and Real Estate
+
 ## v1.1.0 — 2026-08-29
 
 ### Added
