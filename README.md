@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/islamelsabahy/odoo-implementation-playbook)](LICENSE) [![Maintained by](https://img.shields.io/badge/maintained%20by-Islam%20El--sabahy-blue)](https://github.com/islamelsabahy)
+
 # Odoo Implementation Playbook
 
 A practical, business-first implementation framework for delivering Odoo ERP projects from discovery through hypercare.
