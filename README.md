@@ -231,5 +231,5 @@ This repository is a project-management and implementation framework. It should 
 
 ## Author
 
-Eng. Islam El Sherbiny  
+Eng. Islam El-Sherbiny  
 IT Management · ERP/Odoo · Digital Transformation · AI & Automation
